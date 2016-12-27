@@ -11,7 +11,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.neenbedankt.android-apt'
 
 ext {
-    PUBLISH_VERSION = '0.9.1.0'
+    PUBLISH_VERSION = '0.9.1.0m'
     SUPPORT_LIBRARY_VERSION = '25.1.0'
     BUILD_TOOLS = "25.0.1"
     TARGET_SDK = 25
