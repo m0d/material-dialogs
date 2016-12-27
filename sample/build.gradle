@@ -12,8 +12,8 @@ apply plugin: 'com.neenbedankt.android-apt'
 
 ext {
     PUBLISH_VERSION = '0.9.1.0'
-    SUPPORT_LIBRARY_VERSION = '25.0.0'
-    BUILD_TOOLS = "24.0.3"
+    SUPPORT_LIBRARY_VERSION = '25.1.0'
+    BUILD_TOOLS = "25.0.1"
     TARGET_SDK = 25
 }
 
@@ -38,6 +38,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    buildToolsVersion '25.0.0'
 }
 
 dependencies {
