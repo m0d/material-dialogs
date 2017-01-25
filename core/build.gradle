@@ -6,7 +6,7 @@ group='com.github.m0d'
 ext {
     PUBLISH_GROUP_ID = 'com.afollestad.material-dialogs'
     PUBLISH_ARTIFACT_ID = 'core'
-    PUBLISH_VERSION = '0.9.1.0m'
+    PUBLISH_VERSION = '0.9.1.0m2'
     SUPPORT_LIBRARY_VERSION = '25.1.0'
     BUILD_TOOLS = "25.0.1"
     TARGET_SDK = 25
